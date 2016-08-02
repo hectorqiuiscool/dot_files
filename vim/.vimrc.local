@@ -177,7 +177,9 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
 
     " Enable omni completion.
     autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-    autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+    autocmd FileType markdown setlocal omnifunc=htmlcomplete#CompleteTags
+    " html 使用 vim-closetag 处理
+    autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
     autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
     autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
     autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
@@ -225,6 +227,11 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
 
 " json 格式化
     cmap formatjson %!python -m json.tool
+
+" vim-closetag {
+    " filenames like *.xml, *.html, *.xhtml, ...
+    let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
+"}
 
 
 if OSX()

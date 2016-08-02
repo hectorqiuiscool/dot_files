@@ -21,7 +21,10 @@
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" format
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Townk/vim-autoclose'
 
 " template
 Plugin 'aperezdc/vim-template'
@@ -59,7 +62,8 @@ Plugin 'briancollins/vim-jst'
 Plugin 'kchmck/vim-coffee-script'
 
 " html
-Plugin 'amirh/HTML-AutoCloseTag'
+"Plugin 'amirh/HTML-AutoCloseTag'
+Plugin 'alvan/vim-closetag'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'tpope/vim-haml'
