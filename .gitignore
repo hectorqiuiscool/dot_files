@@ -1,0 +1,15 @@
+*~
+*.log
+*.swp
+*.[a|o]
+*~
+*.psd
+*.bak
+*.tmp
+*.pyc
+.DS_Store
+build/*
+tmp
+.ropeproject
+.project
+.pydevproject
