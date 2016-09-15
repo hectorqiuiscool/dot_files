@@ -24,7 +24,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 " format
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'Townk/vim-autoclose'
+"Plugin 'Townk/vim-autoclose'
 
 " template
 Plugin 'aperezdc/vim-template'
@@ -32,17 +32,27 @@ Plugin 'aperezdc/vim-template'
 " ctrlp
 Plugin 'ctrlpvim/ctrlp.vim'
 
-
 " neocomplete
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
 Plugin 'honza/vim-snippets'
+Plugin 'Konfekt/FastFold'
 
 " NERDTree
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'jistr/vim-nerdtree-tabs'
+
+
+" git
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+
+
+" ctags related
+Plugin 'craigemery/vim-autotag'
+Plugin 'vim-scripts/taglist.vim'
 
 
 " ======== Language Related Plugins ========
@@ -62,7 +72,6 @@ Plugin 'briancollins/vim-jst'
 Plugin 'kchmck/vim-coffee-script'
 
 " html
-"Plugin 'amirh/HTML-AutoCloseTag'
 Plugin 'alvan/vim-closetag'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'gorodinskiy/vim-coloresque'
