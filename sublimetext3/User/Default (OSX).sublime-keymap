@@ -1,0 +1,24 @@
+[{
+        "keys": ["L"],
+        "command": "next_view",
+        "context": [{
+            "key": "setting.command_mode",
+            "operand": true
+        }, {
+            "key": "setting.is_widget",
+            "operand": false
+        }]
+    },
+
+    {
+        "keys": ["H"],
+        "command": "prev_view",
+        "context": [{
+            "key": "setting.command_mode",
+            "operand": true
+        }, {
+            "key": "setting.is_widget",
+            "operand": false
+        }]
+    },
+]

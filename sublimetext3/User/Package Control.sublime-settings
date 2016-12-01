@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Color Highlighter",
+		"CTags",
+		"JavaScript Completions",
+		"JsFormat",
+		"MarkdownEditing",
+		"Origami",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"Syntax Highlighting for Sass",
+		"Vintageous",
+		"VintageousOrigami"
+	]
+}
