@@ -4,6 +4,6 @@
 
 ```
 rm -r ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ln -s ./User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+ln -s /Users/hectorqiu/workspaces/config/dot_files/sublimetext3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 ```
