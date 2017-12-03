@@ -1,0 +1,7 @@
+{
+    "env": {
+        "GOPATH": "/Users/hectorqiu/.gvm/pkgsets/go1.8/global" ,
+        "GOBIN": "/Users/hectorqiu/.gvm/gos/go1.8/bin",
+        "GOROOT": "/Users/hectorqiu/.gvm/gos/go1.8"
+    }
+}

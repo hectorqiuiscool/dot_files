@@ -17,14 +17,13 @@
 
 
 " ======== General ========
-" theme
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 
 " format
 Plugin 'nathanaelkane/vim-indent-guides'
 "Plugin 'Townk/vim-autoclose'
+Plugin 'jiangmiao/auto-pairs'
+"Plugin 'edsono/vim-matchit'
+Plugin 'vim-scripts/closetag.vim'
 
 " template
 Plugin 'aperezdc/vim-template'

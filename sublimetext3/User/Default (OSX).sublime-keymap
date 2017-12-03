@@ -21,4 +21,21 @@
             "operand": false
         }]
     },
+    {
+        "keys": ["cmd+n"],
+        "command": "advanced_new_file_new"
+    },
+
+    { "keys": ["f2"], "command": "next_bookmark",
+        "context": [{
+            "key": "setting.command_mode",
+            "operand": true
+        }]
+    },
+    { "keys": ["shift+f2"], "command": "next_bookmark",
+        "context": [{
+            "key": "setting.command_mode",
+            "operand": true
+        }]
+    }
 ]

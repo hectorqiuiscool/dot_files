@@ -11,6 +11,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Use local bundles config if available {
+    if filereadable(expand("~/.vimrc.plugin.base"))
+        source ~/.vimrc.plugin.base
+    endif
     if filereadable(expand("~/.vimrc.plugin.local"))
         source ~/.vimrc.plugin.local
     endif
@@ -539,6 +542,6 @@ set fileencodings=utf-8,gbk
 
 " Use local vimrc if available {
      if filereadable(expand("~/.vimrc.local"))
-         source ~/.vimrc.local
+         "source ~/.vimrc.local
      endif
  " }

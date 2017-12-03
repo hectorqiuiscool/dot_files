@@ -7,38 +7,44 @@ set helplang=cn
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
+set directory=~/.vim/swap,.
 
 colorscheme solarized
 "let g:solarized_termcolors=256
 color solarized
 set background=dark
-
+" 显示相对行号
+set relativenumber
 
 " max win size
-if has("gui_running")
+"if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
-  set lines=999 columns=999
-endif
+"  set lines=999 columns=999
+"endif
 
 set nospell     " disable spell checking
 
 set nofoldenable    " disable folding
 
- " size of a hard tabstop
-set tabstop=4
+set tabstop=4       " The width of a TAB is set to 4.
+                    " Still it is a \t. It is just that
+                    " Vim will interpret it to be having
+                    " a width of 4.
 
- " size of an "indent"
-set shiftwidth=4
+set shiftwidth=4    " Indents will have a width of 4
 
- " a combination of spaces and tabs are used to simulate tab stops at a width
- "  other than the (hard)tabstop
-set softtabstop=4
+set softtabstop=4   " Sets the number of columns for a TAB
 
-""Toggle Menu and Toolbar
+set expandtab       " Expand TABs to spaces
+
+"set smartindent
+
+set pastetoggle=<F9>
+
 set guioptions-=m
 set guioptions-=T
-map <silent> <F2> :if &guioptions =~# 'T' <Bar>
+:map <silent> <F2> :if &guioptions =~# 'T' <Bar>
         \set guioptions-=T <Bar>
         \set guioptions-=m <bar>
     \else <Bar>
@@ -120,7 +126,7 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
     let g:nerdtree_tabs_open_on_gui_startup=0
 " }
 
-
+"let g:jedi#popup_on_dot = 0
 " Neocomplete {
     "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
     " Disable AutoComplPop.
@@ -294,7 +300,7 @@ nmap <C-u> :u<cr>
 " Customize the settings for vim-template plugin                                
 let g:email = "hectorqiuiscool@gmail.com"
 let g:user = "Hector Qiu"                                         
-let g:license = "DO NOT SHARE"
+" let g:license = "DO NOT SHARE"
 
 " Disable Arrow keys in Escape mode
 map <up> <nop>

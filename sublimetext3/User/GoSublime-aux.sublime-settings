@@ -1,0 +1,16 @@
+{
+	"9o.hist./Users/hectorqiu/workspaces/go/hello_go":
+	[
+		"go build .",
+		"exit",
+		"go run helloworld.go",
+		"go run local_scope.go",
+		"go run global_scope.go",
+		"go run function_calls_function.go",
+		"var a = 100",
+		"pwd"
+	],
+	"ann": "a17.11.27-1",
+	"install_version": "r17.11.27-1",
+	"version": "r17.11.27-1"
+}

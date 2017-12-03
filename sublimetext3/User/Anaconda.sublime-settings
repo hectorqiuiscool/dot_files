@@ -1,4 +1,13 @@
 {
     "auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
-    "anaconda_linting": false
+    "anaconda_linting": true,
+    // "python_interpreter": "/usr/local/bin/python",
+    "pep257": false,
+    "pep501": false,
+    "swallow_startup_errors": true,
+
+    "pep8_ignore":
+        [
+            "E501"
+        ],
 }
