@@ -62,14 +62,13 @@
 		"__pycache__"
 	],
 	"font_face": "Source Code Pro for Powerline",
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		// "Vintageous",
-		"six"
+		"six",
+		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,

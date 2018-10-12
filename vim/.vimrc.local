@@ -5,7 +5,8 @@ set langmenu=zh_CN.UTF-8
 set helplang=cn
 "set relativenumber
 
-set guifont=Source\ Code\ Pro\ for\ Powerline:h16
+"set guifont=Source\ Code\ Pro\ for\ Powerline:h16
+set guifont=Monaco\ for\ Powerline:h14
 
 set directory=~/.vim/swap,.
 

@@ -18,6 +18,12 @@ server {
 
 ```bash
 ./certbot-auto certonly --webroot -w /home/hectorqiu/vhost/challenges/ -d bt.funnyworks.net
+
+
+# or use apt install version
+sudo apt install python-certbot-nginx
+sudo certbot certonly --webroot -w /home/hectorqiu/vhost/challenges/ -d bt.funnyworks.net
+
 ```
 
 3. 配置 nginx 支持 ssl
